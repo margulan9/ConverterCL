@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Converter"
+    android:background="@color/backgroundcolor"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <android.support.v7.widget.AppCompatButton
+            android:layout_margin="5dp"
+            android:id="@+id/buttonLatin1"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="Latin"
+            android:textColor="#fff"
+            android:background="@drawable/bg_button"/>
+        <android.support.v7.widget.AppCompatButton
+
+            android:layout_margin="5dp"
+            android:id="@+id/buttonCyrillic1"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="Cyrillic"
+            android:textColor="#fff"
+            android:background="@drawable/bg_button"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/entered_text"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/converter_edittext_bg"
+        android:hint=" Type here..."
+        android:textSize="24sp"
+        android:padding="10dp"/>
+
+
+    <EditText
+        android:id="@+id/converted_text"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/converter_edittext_bg"
+        android:textSize="24sp"
+        android:padding="10dp"
+        android:editable="false"
+        android:layout_marginTop="25dp"
+        />
+
+
+
+</LinearLayout>

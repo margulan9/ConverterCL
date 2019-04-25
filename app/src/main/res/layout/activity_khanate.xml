@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Alphabet"
+    android:textColor="@android:color/darker_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="27sp"
+            android:textColor="#fff"
+            android:text="Khans of kazakh Khanate"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Kazakh latin alphabet chto to tam chto tam sfs dfsd fdfsd fds sdf"
+            android:textColor="#fff"
+            android:layout_marginTop="25dp"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kerei khan - (1465-1474)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zhanibek khan - (1474-1480)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buryndyq khan - (1480-1511)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qasym khan - (1511-1521)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mamash khan - (1521-1523)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tahir khan - (1523-1533)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ahmet khan - (1533-1535)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toǵym khan - (1533-1537)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buıdash khan - (1533-1538)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Haqnazar khan - (1538-1580)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shyǵaı khan - (1580-1582)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Táýekel khan - (1582-1598)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Esim khan - (1598-1628)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zhánibek ІІ khan - (1628-1643)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zháńgir khan - (1643-1656)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Batyr khan - (1652-1680)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Táýke khan - (1680-1715)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qaıyp khan - (1715-1718)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bolat khan - (1718-1729)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ábilmámbet khan - (1734-1771)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abylaı khan - (1771-1781)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kenesary khan - (1841-1847)"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:background="@drawable/textlines"
+                android:layout_margin="7dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
